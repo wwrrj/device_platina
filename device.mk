@@ -30,7 +30,6 @@ $(call inherit-product-if-exists, build/target/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 $(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 # Firmware
@@ -297,10 +296,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sdm660
 
-# LiveDisplay native
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -546,10 +541,6 @@ PRODUCT_PACKAGES += \
 # WiFi Display JAR
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# Wallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
 
 # Device-specific settings
 PRODUCT_PACKAGES += \

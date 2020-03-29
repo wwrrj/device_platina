@@ -1,5 +1,4 @@
-# Build FP to be picked by both system and vendor
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys"
+# system.prop Platina
 
 # ART
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -184,10 +183,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # LMKD
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.low_ram=false
-    ro.lmk.kill_heaviest_task=true
-    ro.lmk.kill_timeout_ms=100
-    ro.lmk.use_minfree_levels=true
+    ro.config.low_ram=false \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.kill_timeout_ms=100 \
+    ro.lmk.use_minfree_levels=true \
     ro.lmk.log_stats=true
 
 # Media
@@ -409,7 +408,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # DPI
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=392
+    ro.sf.lcd_density=392 \
     vendor.display.lcd_density=392
 
 # Radio
