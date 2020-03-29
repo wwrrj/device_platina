@@ -434,3 +434,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	MultitouchMinDistance=1px \
 	TapInterval=1ms \
 	TapSlop=1px    
+
+# Emulator keyboard configuration
+PRODUCT_PROPERTY_OVERRIDES += \
+    keyboard.layout = qwerty \
+    keyboard.characterMap = qwerty \
+    keyboard.characterMap = qwerty2 \
+    keyboard.orientationAware = 1 \
+    keyboard.builtIn = 1 \
+    cursor.mode = navigation \
+    cursor.orientationAware = 1
+
