@@ -4116,6 +4116,9 @@ case "$target" in
 
     done
 
+    # lz4 compression
+    echo lz4 > /sys/block/zram0/comp_algorithm
+
     # cpuset parameters
     echo 0-5 > /dev/cpuset/background/cpus
     echo 0-5 > /dev/cpuset/system-background/cpus
