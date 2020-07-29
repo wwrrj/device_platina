@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2020 Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_platina.mk
+    $(LOCAL_DIR)/aosp_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_platina-eng \
-    ancient_platina-userdebug \
-    ancient_platina-user
+    aosp_platina-eng \
+    aosp_platina-userdebug \
+    aosp_platina-user

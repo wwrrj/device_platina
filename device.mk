@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2020 Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -546,10 +546,3 @@ PRODUCT_PACKAGES += \
 
 # Vendor files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
-
-# AOSP DEVICE
-PRODUCT_NAME := aosp_platina
-PRODUCT_DEVICE := platina
-PRODUCT_MODEL := Mi 8 Lite (AOSP)
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MANUFACTURER := Xiaomi
