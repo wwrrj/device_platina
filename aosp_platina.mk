@@ -38,8 +38,8 @@ TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="platina" \
-    TARGET_DEVICE="platina"
+    PRODUCT_NAME=platina \
+    TARGET_DEVICE=platina
 
 TARGET_VENDOR_PRODUCT_NAME := platina
 TARGET_VENDOR_DEVICE_NAME := platina
