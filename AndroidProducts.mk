@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_platina.mk
+    $(LOCAL_DIR)/exthm_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_platina-eng \
-    lineage_platina-userdebug \
-    lineage_platina-user
+    exthm_platina-eng \
+    exthm_platina-userdebug \
+    exthm_platina-user
